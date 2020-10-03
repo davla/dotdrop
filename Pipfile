@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+Jinja2 = "*"
+docopt = "*"
+"ruamel.yaml" = "*"
+pycodestyle = "*"
+nose = "*"
+coverage = "*"
+coveralls = "*"
+pyflakes = "*"
+
+[dev-packages]
+pycodestyle = "*"
+nose = "*"
+coverage = "*"
+coveralls = "*"
+pyflakes = "*"
+Jinja2 = "*"
+docopt = "*"
+"ruamel.yaml" = "*"
+
+[requires]
+python_version = "3"
