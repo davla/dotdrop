@@ -481,8 +481,8 @@ class Installer:
                         diff = self._diff_before_write(src, dst,
                                                        content=content,
                                                        quiet=True)
-                        if diff:
-                            self._print_diff(src, dst, diff)
+                    if diff:
+                        self._print_diff(src, dst, diff)
                 if not self.log.ask('Overwrite \"{}\"'.format(dst)):
                     self.log.warn('ignoring {}'.format(dst))
                     return 1, None
